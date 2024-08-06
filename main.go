@@ -16,6 +16,8 @@ func main() {
 	dc.SetRGB(1, 1, 1)
 	dc.Clear()
 
+	dc.Translate(width/2, height/2) // Make (0,0) the center of the canvas
+
 	dc.SetRGB(0, 0, 0)
 
 	points := []gg.Point{
